@@ -1,23 +1,24 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Hearder = () => {
     return (
         <header>
             <ul>
                 <li>
-                    <a href="/">
+                    <Link to="/">
                         Home
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="/tv">
+                    <Link to="/tv">
                         Tv
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="/search">
+                    <Link to="/search">
                         Search
-                    </a>
+                    </Link>
                 </li>
 
             </ul>
